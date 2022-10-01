@@ -3,6 +3,7 @@ let input = document.querySelector('#myInput');
 function autocheck(input, arr) {
     
     input.addEventListener('keyup', function (e) {
+        
         e.preventDefault()
         var inp = input.value;
         var a, b;
